@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    background-color: rgb(46, 43, 43);
+  
+}
+
+#menu {
+    width: 100%;
+}
+header {
+    width: 100%;
+    height: 20%;
+    justify-content: flex-end;
+    align-items: center;
+    min-width: 300px;
+}
+header li {
+    display: inline-flex;
+    list-style: none;
+    padding-top: 2%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+}
+#logo{
+    align-items: center;
+    font-size:18px; 
+    text-transform:uppercase; 
+    color:#b4c9dd; 
+    font-weight:500; 
+    padding:33px 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: midnightblue;
+    overflow:hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#menu li{
+    float:left;
+
+}
+#menu li a{
+    color: azure;
+    display: block;
+    text-decoration:none;
+    padding: 20px;
+    transition: all 0.8s ;
+}
+
+#menu span{
+    margin-right:10px;
+
+}
+
+#formulario {
+    margin: auto;
+    margin-bottom: 30px;
+    width: 38%;
+    background: rgb(252, 252, 252, 252 0.4);
+    /*border: solid 1.5 rgba(255, 252, 252, 0.993);*/
+    border: 1px solid silver;
+    padding: 10px;
+    text-align: right;
+    box-shadow: 7px 13px 37px #000;
+    border-radius: 4px;
+}
+h1 {
+    margin-left: 33%;
+    color: white;
+}
+label {
+    display: inline-flex;
+    text-align: justify;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    width: 30%;
+    color: white;/*color de la letra*/
+
+}
+input {
+    width: 50%;
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    border-radius: 4px;
+    outline: 0;
+    padding: 5px;
+    border-bottom: 2px solid gray;
+}
+.boton_registro {/*boton de registro formulario*/
+    margin:auto; 
+    margin-top: 30px;
+    margin-right: 110px;
+    background-color: rgb(21, 0, 95);
+    width: 40%;
+    height: 40px;
+    font-size: 24px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+#boton_registro {
+    margin: 0 auto;
+    background-color: rgb(21, 0, 95);
+    width: 30%;
+    height: 50px;
+    font-size: 24px;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+.btn-group-lg p{
+    height: 40px;
+    text-align:center;
+    font-size: 18 ;
+    margin-top: 10px;
+    margin-left: 18px;
+}
+.btn-group-lg a{
+    color: #F2F3F4;
+    text-decoration: none;
+}
+
+.btn-group-lg a:hover{
+    text-decoration: underline;
+}
+#boton_registro:hover {
+    /*background-color:252, 252, 252, 252 0.4;*/
+    border: solid 0.5px rgb(0, 0, 0.1);
+    font-size: 30px;
+    color: white;
+}
+
+.boton_registro:hover {/*boton de registro formulario*/
+    background-color:rgb(252, 252, 252, 252 0.4);
+    border: solid 0.5px rgb(255, 253, 253);
+    font-size: 30px;
+    color: white;
+}
+#menu li a:hover{
+    background:rgb(196, 212, 212);
+    padding: 23px;
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    li {
+        display: blok;
+        list-style: none;
+        border-radius: 1%;
+    }
+    
+    #formulario {
+        width: 90%;
+    }
+    label {
+        display: block;
+        width: 90%;
+        margin: 20px;
+    }
+    input {
+        width: 90%;
+        display: block;
+    }
+    #boton_registro {
+        width: 90%;
+        margin: 5%;
+    }
+    .boton_registro {
+        width: 90%;
+        margin: 5%;
+    }
+    header li {
+        display: block;
+        width: 100%;
+    }
+}
